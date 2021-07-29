@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body {
+    height: 100%;
+    width : 1080px;
+    margin: auto;
+    background-color: #99CCFF;
+}
+div{
+	display: inline-block;
+}

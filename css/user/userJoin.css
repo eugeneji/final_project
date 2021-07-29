@@ -1,0 +1,61 @@
+@charset "UTF-8";
+body {
+    height: 100%;
+    width : 1080px;
+    margin: auto;
+    background-color: #99CCFF;
+}
+div{
+	display: inline-block;
+}
+form{
+    width: 800px;
+    height: 500px;
+    border: 1px solid;
+}
+table{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    width: 300px;
+    border-spacing: 0px;
+}
+table td{
+    height: 18px;
+    padding-bottom: 3%;
+}
+table th{
+    font-size: 20px;
+    padding-bottom:5%;
+}
+a{
+	text-decoration: none;
+	color :edddc2;
+}
+#joinWrap{
+	display: inline-block;
+	border: 1px solid;
+	width: 100px;
+    height: 100px;
+    text-align: center;
+   	margin-top: 15%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #99CCFF;
+}
+#loginbtn{
+    width: 310px;
+    height: 35px;
+    background-color: #5a6275;
+    border: none;
+    color: white;
+}
+
+#finduser{
+    font-size: 12px;
+    text-align: right;
+}
+.text{
+    width: 300px;
+    height: 30px;
+}

@@ -1,0 +1,500 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+/* footer */
+.footer {
+   height: 75px;
+   background: #6c757d;
+   padding-top: 10px;
+   color: white;
+   text-align: center;
+   font-size: 11px;
+}
+
+/* header */
+.logoImg {
+   margin: 30px;
+   width: 300px;
+   height: 50px;
+   background: #c8ddff;
+   text-align: center;
+   padding-top: 15px;
+}
+
+/* nav */
+.navBtn {
+   background: white;
+   border-radius: 10px;
+   color: bule;
+   margin-bottom: 5px;
+   font-size: 20px;
+   margin-right: 5px;
+   font-family: 'Jua', sans-serif;
+}
+
+.navBtn:hover {
+   background-color: #c8ddff
+}
+
+/* main */
+.reviewBar { /*main.라인 바*/
+   width: 100%;
+   margin: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.reviewBar>hr {
+   width: 35%;
+   border: 1px solid #61A3F3;
+}
+
+.reviewBar>.reviewBarFont {
+   margin: 10px;
+   color: #61A3F3;
+   font-size: 25px;
+   font-family: 'Jua', sans-serif;
+}
+
+.reviewImg { /*main.리뷰이미지*/
+   width: 100%;
+   height: 300px;
+   border: 1px solid;
+   background: #c8ddff;
+   text-align: center;
+}
+
+.carouImg { /*main.로고 이미지*/
+   width: 100%;
+   height: 600px;
+   border: 1px solid;
+   background: #c8ddff;
+   text-align: center;
+}
+
+.card-footer {
+   background: pink;
+}
+
+/* form for all Users */
+.formSize {
+   width: 60%;
+}
+/* user/08.html*/
+.formSize2 {
+   width: 45%;
+}
+/* ERROR CODE*/
+.errorCode {
+   color: red;
+}
+
+.thead {
+   background: #94B8FF;
+   margin-top: 20px;
+}
+
+.main {
+   margin-top: 20px;
+}
+
+.btnMypage {
+   background: #94B8FF;
+   color: white;
+}
+
+/*common*/
+.text {
+   text-align: center;
+}
+
+.font {
+   font-family: 'Jua', sans-serif;
+   font-size: 20px;
+}
+
+.resevationFont {
+   font-family: 'Jua', sans-serif;
+   font-size: 25px;
+   text-align: center;
+}
+
+.color {
+   background: #94B8FF;
+}
+
+.titleFont {
+   font-family: 'Jua', sans-serif;
+   font-size: 40px;
+}
+
+/*board*/
+.thead {
+   background: #94B8FF;
+}
+
+/*reservarion*/
+.resevartionFont {
+   font-family: 'Jua', sans-serif;
+   font-size: 30px;
+}
+
+.reviewBox {
+   border: 2px solid #6b9dff;
+   background: #b3cdff;
+}
+
+.feedImg {
+   background: white;
+   width: 100px;
+   height: 80px;
+   margin-top: 10px;
+   margin-left: 30px;
+   margin-right: 20px;
+   border: 1px solid;
+   float: left;
+   width: 33%;
+   padding: 10px;
+}
+
+.commentName {
+   font-size: 15px;
+}
+
+.commentDate {
+   color: #000;
+   color: rgba(0, 0, 0, 0.5);
+   font-size: 5pt;
+}
+
+/*manual*/
+.box {
+   margin-top: 20px;
+   width: 100%;
+   height: 1300px;
+   position: relative;
+   color: #ffffff;
+   font-size: 24pt;
+   text-align: center;
+   vertical-align: center;
+   border: 1px solid black;
+   color: black;
+   font-family: 'Jua', sans-serif;
+}
+
+.box>.img {
+   background: #94B8FF;
+   text-align: center;
+   vertical-align: middle;
+   height: 1000px;
+}
+
+/*massege*/
+/*MSG 01*/
+.msgMain { /*msg main 틀*/
+   height: 900px;
+   background: #94B8FF;
+   width: 100%
+}
+
+.msgHeader { /*msg 상단*/
+   margin-top: 20px;
+   height: 100px;
+   background: #94B8FF;
+   padding-top: 30px;
+   font-size: 30px;
+   color: white;
+   font-weight: bold;
+   font-style: italic;
+   font-family: 'Jua', sans-serif;
+}
+
+.msgListDiv { /*msg 내용 표현 div*/
+   height: 100px;
+   width: 100%;
+   display: flex;
+   cursor: pointer;
+   background: white;
+   font-size: 25px; font-family : 'Jua', sans-serif;
+   border: 1px solid #94B8FF;
+   font-family: 'Jua', sans-serif;
+}
+
+.msgOwner { /*msg 사용자 이름*/
+   display: inline-block;
+   font-size: 30x;
+   margin-top: 10px;
+   margin-left: 10px;
+   font-weight: bold;
+   color: #3b77ff;
+   display: flex;
+   flex-direction: column;
+}
+
+.msgContents { /*msg 내용*/
+   display: inline-block;
+   font-size: 15px;
+   margin-top: 10px;
+   margin-left: 20px;
+   color: black;
+}
+
+.msgFrame { /*msg fram*/
+   height: 780px;
+   background: #94B8FF;
+}
+/*스크롤*/
+.scroll {
+   overflow-x: auto;
+}
+
+.scroll::-webkit-scrollbar {
+   width: 10px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+   background-color: white;
+   border-radius: 10px;
+   background-clip: padding-box;
+   border: 3px solid transparent;
+}
+
+.scroll::-webkit-scrollbar-track {
+   background-color: none;
+   border-radius: 10px;
+}
+
+/*MSG 02*/
+.msgInHeader { /*02. 메시지 header*/
+   height: 100px;
+   background: #94B8FF;
+   font-size: 30px;
+   padding-top: 10px;
+   color: white;
+   vertical-align: middle;
+   font-family: 'Jua', sans-serif;
+}
+
+.backBtn { /*02.back버튼*/
+   color: white;
+   font-weight: bold;
+   font-size: 40px;
+   padding-top: 10px;
+   vertical-align: middle;
+}
+
+.msgContent { /*02.메시지 내용 출력창*/
+   height: 700px;
+   background: #eaf0fc;
+}
+/*스크롤 동일 합칠때 삭제 하기*/
+.scroll2 {
+   overflow-x: auto;
+}
+
+.scroll2::-webkit-scrollbar {
+   width: 10px;
+}
+
+.scroll2::-webkit-scrollbar-thumb {
+   background-color: white;
+   border-radius: 10px;
+   background-clip: padding-box;
+   border: 3px solid transparent;
+}
+
+.scroll2::-webkit-scrollbar-track {
+   background-color: none;
+   border-radius: 10px;
+}
+/*스크롤 동일 합칠때 삭제 하기*/
+.deleteBtn { /*삭제 버튼*/
+   color: black;
+   font-weight: bold;
+   padding-top: 10px;
+   font-size: 35px;
+   text-align: center;
+}
+
+.msg { /*msg 기본틀*/
+   border-radius: 20px;
+   margin: 20px;
+   font-size: 20px;
+   text-align: left;
+   margin-top: 10px;
+   display: inline-block;
+   padding: 10px;
+   max-width: 600px;
+}
+
+.receive { /*02.상대방*/
+   background: white;
+   border: 2px solid #568aff;
+}
+
+.right { /*02.user1*/
+   text-align: right;
+}
+
+.send { /*02.user2*/
+   border: 2px solid white;
+   background-color: #568aff;
+   color: white;
+}
+
+.msgIn { /*02.msg입력*/
+   margin: 20px;
+}
+
+.msgInBlock { /*02.내용 입력창*/
+   border-top: none;
+   border-bottom: none;
+   border-left: none;
+   border-right: none;
+   border-radius: 20px;
+   margin-bottom: 5px;
+   font-size: 20px;
+}
+
+.msgBtn { /*02. send 버튼*/
+   font-size: 25px;
+   background: #e2e9fa;
+   color: #084fef;
+   font-family: 'Jua', sans-serif;
+}
+
+.InMsgCon { /*02. bottom 입력창*/
+   height: 50px;
+}
+
+/*errPage*/
+.errImage {
+   height: 500px;
+   text-align: center;
+   vertical-align: middle;
+   background: #94B8FF;
+   width: 100%;
+   margin-top: 20px;
+}
+/*myPage*/
+.mypageBtnSize {
+   width: 100px;
+   height: 100px;
+   font-family: 'Jua', sans-serif;
+   font-size: 25px;
+   text-align: center;
+   vertical-align: middle;
+}
+
+.mypageTitle {
+   font-family: 'Jua', sans-serif;
+   font-size: 30px;
+   text-align: center;
+}
+
+/*review*/
+.houseImg {
+   border: 1px solid;
+   text-align: center;
+   height: 150px;
+   background: #94B8FF;
+}
+
+#reservationDiv, #infoDiv {
+   border: 1px solid gray;
+   padding: 8px;
+   border-radius: 10px;
+   margin-top: 20px;
+}
+
+.reviewImage {
+   width: 90px;
+   height: 60px;
+   border: 1px solid; 
+}
+/*signIn*/
+.signInHeader {
+   margin-top: 20px;
+   height: 50px;
+   background: #94B8FF;
+   font-size: 30px;
+   color: white;
+   font-weight: bold;
+   font-style: italic;
+}
+/*sitter*/
+fieldset { /* 검색 창 */
+   border-radius: 10px;
+   border: 10px solid #5f95ff;
+   font-family: 'Jua', sans-serif;
+   width:100%;
+   font-size: 22px;
+}
+
+.sitterFont {
+   font-family: 'Jua', sans-serif;
+   font-size: 30px;
+}
+
+#sitter { /* 개별 시터 리스트 */
+   border: 2px solid #9ebcff;
+   border-radius: 10px;
+   background: #eaf0fc;
+}
+
+.myImg { /* 리스트에 출력되는 이미지 */
+   width: 70%;
+   height: 100%;
+   border: 1px solid gray;
+}
+
+.newImg { /* 시터 등록 / 수정 시 이미지 */
+   width: 40%;
+   height: 200px;
+   border: 1px solid gray;
+}
+
+.sitterInbox { /* 시터 등록 / 수정 시 2개 이미지를 묶는 div */
+   width: 100%;
+}
+
+#sitterContent { /* 시터 등록 / 수정 시 2개 textarea */
+   height: 100px;
+}
+
+#list:link {
+   color: black;
+   text-decoration: none;
+}
+
+#list:visited {
+   color: black;
+   text-decoration: none;
+}
+
+#list:hover {
+   color: black;
+   text-decoration: none;
+}
+.sitterbox {
+   border: 10px solid #77a5ff;
+   border-radius: 10px;
+   background: #8bb2ff;
+}
+
+.reviewImg1 {
+	height: 100px;
+	border: 1px solid gray;
+	text-align: center;
+	vertical-align: middle;
+	padding: 35px 0px;
+}
+
+.sitterImg {
+	height: 100px;
+	border: 1px solid gray;
+	text-align: center;
+	vertical-align: middle;
+	padding: 35px 0px;
+}

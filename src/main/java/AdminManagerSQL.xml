@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  <mapper namespace="more.adminManager">
+  	<select id="userManager" resultType="more.adminManager.model.AdminManagerDTO" parameterType="Map">
+  		select * from
+		(select rownum as rnum,a.* from
+		(select * from more_user order by user_idx desc) a) b
+		where user_grade!='admin' and  rnum<![CDATA[>=]]>#{start} and rnum<![CDATA[<=]]>#{end}
+  	</select>
+  	
+  	<select id="user_getTotalCnt" resultType="Integer">
+  	select count(*) from more_user where user_grade!='admin'
+  	</select>
+  	
+  	<select id="userView" resultType="more.adminManager.model.AdminManagerDTO" parameterType="Integer">
+  		select * from more_user where user_idx = #{user_idx}
+  	</select>
+  	
+  	<update id="userBen" parameterType="Integer">
+  		update more_user set user_grade='ben' where user_idx=#{user_idx}
+  	</update>
+  	
+  	<update id="userBenCancel" parameterType="Integer">
+  		update more_user set user_grade='user' where user_idx=#{user_idx}
+  	</update>
+  	
+  	<select id="bbsManager" resultType="Integer">
+  		select count(*) from more_meeting_m
+  	</select>
+  	
+  </mapper>
